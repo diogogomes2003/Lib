@@ -12,22 +12,22 @@
 
 NAME = libft.a
 
-SRC_LIBFT = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
-				ft_isprint.c ft_strncmp.c ft_toupper.c ft_tolower.c \
-				ft_strrchr.c ft_strnstr.c ft_strdup.c ft_atoi.c\
-				ft_memcmp.c ft_memmove.c ft_memset.c ft_memcpy.c\
-				ft_memchr.c ft_bzero.c ft_strlen.c ft_strlcpy.c\
-				ft_strlcat.c ft_strchr.c ft_calloc.c ft_substr.c\
-				ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c\
-				ft_strmapi.c ft_strjoin.c ft_strtrim.c ft_striteri.c\
-				ft_itoa.c ft_split.c ft_lstnew.c ft_lstadd_front.c\
-				ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c\
-				ft_lstclear.c ft_lstiter.c ft_lstmap.c
+SRC_LIBFT = others/ft_isalpha.c others/ft_isdigit.c others/ft_isalnum.c others/ft_isascii.c \
+				others/ft_isprint.c strings/ft_strncmp.c others/ft_toupper.c others/ft_tolower.c \
+				strings/ft_strrchr.c strings/ft_strnstr.c strings/ft_strdup.c others/ft_atoi.c\
+				memory/ft_memcmp.c memory/ft_memmove.c memory/ft_memset.c memory/ft_memcpy.c\
+				memory/ft_memchr.c memory/ft_bzero.c strings/ft_strlen.c strings/ft_strlcpy.c\
+				strings/ft_strlcat.c strings/ft_strchr.c memory/ft_calloc.c strings/ft_substr.c\
+				others/ft_putchar_fd.c others/ft_putstr_fd.c others/ft_putendl_fd.c others/ft_putnbr_fd.c\
+				strings/ft_strmapi.c strings/ft_strjoin.c strings/ft_strtrim.c strings/ft_striteri.c\
+				others/ft_itoa.c others/ft_split.c lists/ft_lstnew.c lists/ft_lstadd_front.c\
+				lists/ft_lstsize.c lists/ft_lstlast.c lists/ft_lstadd_back.c lists/ft_lstdelone.c\
+				lists/ft_lstclear.c lists/ft_lstiter.c lists/ft_lstmap.c
 
-SRC_PRINT = ft_printf_hex.c ft_printf_ptr.c ft_printf_std.c ft_printf_uns.c\
-				ft_printf.c
+SRC_PRINT = printf/ft_printf_hex.c printf/ft_printf_ptr.c printf/ft_printf_std.c printf/ft_printf_uns.c\
+				printf/ft_printf.c
 
-SRC_GET = get_next_line.c get_next_line_utils.c
+SRC_GET = gnl/get_next_line.c gnl/get_next_line_utils.c
 
 SRC_COMP = ${SRC_LIBFT} ${SRC_PRINT} ${SRC_GET}
 
