@@ -22,7 +22,7 @@ SRC_LIBFT = others/ft_isalpha.c others/ft_isdigit.c others/ft_isalnum.c others/f
 				strings/ft_strmapi.c strings/ft_strjoin.c strings/ft_strtrim.c strings/ft_striteri.c\
 				others/ft_itoa.c others/ft_split.c lists/ft_lstnew.c lists/ft_lstadd_front.c\
 				lists/ft_lstsize.c lists/ft_lstlast.c lists/ft_lstadd_back.c lists/ft_lstdelone.c\
-				lists/ft_lstclear.c lists/ft_lstiter.c lists/ft_lstmap.c
+				lists/ft_lstclear.c lists/ft_lstiter.c lists/ft_lstmap.c strings/ft_strjoinget.c
 
 SRC_PRINT = printf/ft_printf_hex.c printf/ft_printf_ptr.c printf/ft_printf_std.c printf/ft_printf_uns.c\
 				printf/ft_printf.c
