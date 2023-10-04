@@ -6,11 +6,21 @@
 /*   By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 11:20:49 by dduarte-          #+#    #+#             */
-/*   Updated: 2023/08/14 09:13:54 by dduarte-         ###   ########.fr       */
+/*   Updated: 2023/10/04 09:10:52 by dduarte-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
+
+char	*new_temp_aux(char *str)
+{
+	if (str[0] == '\0')
+	{
+		free(str);
+		str = 0;
+	}
+	return (str);
+}
 
 char	*ft_read_and_join(int fd, char *temp)
 {
@@ -51,39 +61,3 @@ char	*get_next_line(int fd)
 	temp[fd] = ft_new_temp(temp[fd]);
 	return (line);
 }
-
-// #include <stdio.h>
-// #include <fcntl.h>
-// #include <stdlib.h>
-
-// int	main(void)
-// {
-// 	char	*line;
-// 	int		i;
-// 	char		*line;
-// 	int		fd1;
-// 	int		fd2;
-// 	int		fd3;
-
-// 	fd1 = open("tests/test.txt", O_RDONLY);
-// 	fd2 = open("tests/test2.txt", O_RDONLY);
-// 	fd3 = open("tests/test3.txt", O_RDONLY);
-// 	i = 1;
-// 	while (i < 7)
-// 	{
-// 		line = get_next_line(fd1);
-// 		printf("line [%02d]: %s \n",i, line);
-// 		free(line);
-// 		line = get_next_line(fd2);
-// 		printf("line [%02d]: %s\n", i,line);
-// 		free(line);
-// 		line = get_next_line(fd3);
-// 		printf("line [%02d]: %s\n", i,line);
-// 		free(line);
-// 		i++;
-// 	}
-//     close(fd1);
-// 	close(fd2);
-// 	close(fd3);
-// 	return (0);
-// }

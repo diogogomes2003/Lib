@@ -6,7 +6,7 @@
 /*   By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 09:29:47 by dduarte-          #+#    #+#             */
-/*   Updated: 2023/08/14 09:18:30 by dduarte-         ###   ########.fr       */
+/*   Updated: 2023/10/04 09:06:06 by dduarte-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ size_t	ft_strlenget(char *s);
 char	*ft_strchrget(char *s, int line_break);
 char	*ft_strjoinget(char *temp, char *buffer);
 char	*ft_strjoinget(char *temp, char *buffer);
+char	*new_temp_aux(char *str);
 char	*ft_new_temp(char *temp);
 // Printf
 int		ft_formats(va_list args, const char format);

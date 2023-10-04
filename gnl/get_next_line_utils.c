@@ -6,11 +6,11 @@
 /*   By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 11:44:11 by dduarte-          #+#    #+#             */
-/*   Updated: 2023/08/14 09:18:00 by dduarte-         ###   ########.fr       */
+/*   Updated: 2023/10/04 09:09:58 by dduarte-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
 
 size_t	ft_strlenget(char *s)
 {
@@ -121,5 +121,6 @@ char	*ft_new_temp(char *temp)
 		str[j++] = temp[i++];
 	str[j] = '\0';
 	free(temp);
+	str = new_temp_aux(str);
 	return (str);
 }
