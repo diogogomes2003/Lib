@@ -6,11 +6,12 @@
 /*   By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 09:46:53 by dduarte-          #+#    #+#             */
-/*   Updated: 2023/04/17 09:24:02 by dduarte-         ###   ########.fr       */
+/*   Updated: 2023/10/04 09:44:40 by dduarte-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
+
 char	*ft_strrchr(char const	*s, int c)
 {
 	int	i;

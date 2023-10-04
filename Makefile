@@ -6,7 +6,7 @@
 #    By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/12 14:30:19 by dduarte-          #+#    #+#              #
-#    Updated: 2023/08/14 09:35:31 by dduarte-         ###   ########.fr        #
+#    Updated: 2023/10/04 09:43:03 by dduarte-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -61,7 +61,6 @@ fclean:
 		@echo "${C_GREEN}[FULL CLEANED]${C_DEF}"
 
 re:	fclean all
-	@echo "${C_GREEN}[REBUILD]${C_DEF}"
 
 .PHONY: all clean fclean re
 

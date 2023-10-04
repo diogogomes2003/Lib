@@ -6,11 +6,11 @@
 /*   By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 11:20:49 by dduarte-          #+#    #+#             */
-/*   Updated: 2023/10/04 09:10:52 by dduarte-         ###   ########.fr       */
+/*   Updated: 2023/10/04 09:40:29 by dduarte-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 char	*new_temp_aux(char *str)
 {
